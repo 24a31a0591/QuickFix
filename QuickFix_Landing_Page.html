@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quick Fix | Fast, Reliable Home Repairs</title>
+<style>
+:root{--blue:#155eef;--dark:#0b1220;--muted:#5b6474;--bg:#f7f9fc;--card:#fff;--line:#e7ebf2;--green:#12b76a}
+*{box-sizing:border-box}body{margin:0;font-family:Inter,Arial,sans-serif;color:var(--dark);background:var(--bg);line-height:1.6}
+nav{max-width:1120px;margin:auto;padding:20px 24px;display:flex;align-items:center;justify-content:space-between}
+.logo{font-size:25px;font-weight:800;color:var(--blue)}.logo span{color:var(--dark)}
+nav a{color:var(--dark);text-decoration:none;margin-left:24px;font-weight:600}
+.btn{display:inline-block;background:var(--blue);color:#fff!important;padding:13px 20px;border-radius:10px;text-decoration:none;font-weight:700;border:0;cursor:pointer}
+.hero{background:linear-gradient(135deg,#eef4ff,#fff);padding:70px 24px 80px}
+.hero-inner{max-width:1120px;margin:auto;display:grid;grid-template-columns:1.15fr .85fr;gap:55px;align-items:center}
+.badge{display:inline-block;background:#e8f0ff;color:var(--blue);padding:7px 12px;border-radius:999px;font-weight:700;font-size:14px}
+h1{font-size:clamp(42px,6vw,68px);line-height:1.04;margin:18px 0}
+.hero p{font-size:19px;color:var(--muted);max-width:650px}
+.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:25px}
+.secondary{background:#fff;color:var(--blue)!important;border:1px solid #cfd8ea}
+.visual{background:#fff;border:1px solid var(--line);border-radius:24px;padding:25px;box-shadow:0 18px 45px rgba(16,24,40,.08)}
+.phone{border-radius:20px;background:#0f172a;color:#fff;padding:22px}
+.phone-top{display:flex;justify-content:space-between;align-items:center}.dot{width:9px;height:9px;background:var(--green);border-radius:50%;display:inline-block;margin-right:7px}
+.service{background:#fff;color:var(--dark);border-radius:14px;padding:15px;margin-top:14px;display:flex;justify-content:space-between;align-items:center}
+.service small{color:var(--muted)}.check{color:var(--green);font-weight:800}
+section{max-width:1120px;margin:auto;padding:70px 24px}
+.center{text-align:center}.center p{color:var(--muted);max-width:650px;margin:10px auto}
+h2{font-size:36px;line-height:1.15;margin:0 0 12px}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:35px}
+.card{background:var(--card);border:1px solid var(--line);padding:24px;border-radius:18px}
+.icon{font-size:30px}.card h3{margin:12px 0 5px}.card p{color:var(--muted);margin:0}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:35px}
+.step{padding:28px;background:#fff;border-radius:18px;border:1px solid var(--line)}
+.num{width:38px;height:38px;border-radius:50%;background:#e8f0ff;color:var(--blue);display:grid;place-items:center;font-weight:800}
+.cta{background:var(--dark);color:#fff;border-radius:26px;padding:48px}
+.cta p{color:#c5ccda;max-width:650px}.cta .btn{background:#fff;color:var(--dark)!important}
+form{max-width:600px;margin:25px auto 0;background:#fff;padding:28px;border-radius:18px;border:1px solid var(--line);text-align:left}
+label{font-weight:700;display:block;margin:12px 0 6px}input,select,textarea{width:100%;padding:13px;border:1px solid #ccd3df;border-radius:9px;font:inherit}textarea{min-height:90px}
+footer{background:#fff;border-top:1px solid var(--line);padding:30px 24px;color:var(--muted);text-align:center}
+@media(max-width:800px){.hero-inner{grid-template-columns:1fr}.grid{grid-template-columns:1fr 1fr}.steps{grid-template-columns:1fr}nav div:last-child a:not(.btn){display:none}}
+@media(max-width:520px){.grid{grid-template-columns:1fr}.hero{padding-top:45px}h1{font-size:44px}}
+</style>
+</head>
+<body>
+<nav>
+  <div class="logo">Quick<span>Fix</span></div>
+  <div>
+    <a href="#services">Services</a>
+    <a href="#how">How It Works</a>
+    <a class="btn" href="#book">Book a Service</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="hero-inner">
+    <div>
+      <span class="badge">Reliable repairs. Less hassle.</span>
+      <h1>Home repairs, made quick.</h1>
+      <p>Quick Fix connects you with trusted service professionals for electrical, plumbing, appliance and everyday household repairs — simply, conveniently and affordably.</p>
+      <div class="hero-actions">
+        <a class="btn" href="#book">Book a Repair</a>
+        <a class="btn secondary" href="#how">See How It Works</a>
+      </div>
+    </div>
+    <div class="visual">
+      <div class="phone">
+        <div class="phone-top"><strong>Quick Fix</strong><span><i class="dot"></i>Available</span></div>
+        <div class="service"><div><strong>⚡ Electrical</strong><br><small>Verified professional</small></div><span class="check">✓</span></div>
+        <div class="service"><div><strong>🔧 Plumbing</strong><br><small>Quick service booking</small></div><span class="check">✓</span></div>
+        <div class="service"><div><strong>🏠 Appliance Repair</strong><br><small>Reliable help</small></div><span class="check">✓</span></div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section id="services">
+  <div class="center">
+    <h2>One place for everyday repairs</h2>
+    <p>Find the help you need without wasting time searching for technicians.</p>
+  </div>
+  <div class="grid">
+    <div class="card"><div class="icon">⚡</div><h3>Electrical</h3><p>Get help with common electrical repair and maintenance needs.</p></div>
+    <div class="card"><div class="icon">🔧</div><h3>Plumbing</h3><p>Book assistance for leaks, fittings and everyday plumbing issues.</p></div>
+    <div class="card"><div class="icon">🛠️</div><h3>Appliances</h3><p>Find service support for household appliance problems.</p></div>
+    <div class="card"><div class="icon">🏠</div><h3>Home Repairs</h3><p>A convenient way to request help with other household fixes.</p></div>
+  </div>
+</section>
+
+<section id="how">
+  <div class="center"><h2>How Quick Fix works</h2><p>Three simple steps to get your repair moving.</p></div>
+  <div class="steps">
+    <div class="step"><div class="num">1</div><h3>Tell us the problem</h3><p>Choose the service you need and describe the repair.</p></div>
+    <div class="step"><div class="num">2</div><h3>Connect with a professional</h3><p>Find a suitable service professional for your requirement.</p></div>
+    <div class="step"><div class="num">3</div><h3>Get it fixed</h3><p>Arrange the service and get your everyday repair handled.</p></div>
+  </div>
+</section>
+
+<section id="book">
+  <div class="cta">
+    <h2>Ready to fix the problem?</h2>
+    <p>Stop wasting time searching for help. Tell Quick Fix what you need and take the first step toward a hassle-free repair.</p>
+    <form id="booking">
+      <label for="name">Your name</label>
+      <input id="name" required placeholder="Enter your name">
+      <label for="service">Service needed</label>
+      <select id="service" required>
+        <option value="">Select a service</option>
+        <option>Electrical</option><option>Plumbing</option><option>Appliance Repair</option><option>Other Home Repair</option>
+      </select>
+      <label for="problem">Briefly describe the problem</label>
+      <textarea id="problem" required placeholder="What needs to be fixed?"></textarea>
+      <button class="btn" type="submit" style="margin-top:15px">Request a Quick Fix</button>
+      <p id="message" aria-live="polite" style="margin:12px 0 0;color:#475467"></p>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <strong>Quick Fix</strong> — Fast, reliable and convenient home repair services.
+</footer>
+
+<script>
+document.getElementById('booking').addEventListener('submit',function(e){
+  e.preventDefault();
+  const name=document.getElementById('name').value.trim();
+  const service=document.getElementById('service').value;
+  const msg=document.getElementById('message');
+  if(name && service){msg.textContent='Thanks, '+name+'! Your '+service+' request has been noted. A Quick Fix team member can follow up with you.';}
+});
+</script>
+</body>
+</html>
